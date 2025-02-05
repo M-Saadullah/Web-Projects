@@ -1,0 +1,15 @@
+﻿@{
+    Layout = "_Layout";
+}
+@model IEnumerable<The_Outfit.Models.Article>;
+<div style="padding-top:80px">
+
+@if (Model != null && Model.Any())
+{
+    <partial name="_PartialArticleView" model="Model" />
+}
+else if (Model != null)
+{
+    <img src="~/Images/2024-05-31 at 23.27.08_b06adc1e.jpg" style="display: block; margin: auto; width: 50%;"   />
+}
+</div>

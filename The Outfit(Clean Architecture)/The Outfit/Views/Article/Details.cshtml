@@ -1,0 +1,18 @@
+﻿@model The_Outfit.Models.Article
+@{
+    Layout = "~/views/shared/_SuffiLayout.cshtml";
+}
+<div class="card mx-auto shadow-sm" style="margin-top:100px">
+    <div class="card-header">
+        <h1>@Model.Name</h1>
+    </div>
+    <div class="card-body">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">ID: @Model.id</li>
+            <li class="list-group-item">Quantity: @Model.Quantity</li>
+            <li class="list-group-item">Color Detail: @Model.colorDetails</li>
+            <li class="list-group-item">Category: @Model.Category</li>
+            <li class="list-group-item">Features: @Model.Features</li>
+        </ul>
+    </div>
+</div>

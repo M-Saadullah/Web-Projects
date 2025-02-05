@@ -1,0 +1,49 @@
+﻿@model List<The_Outfit.Models.Article>
+<title>Men</title>
+<div id="searchResults" style="padding-top: 80px;">
+
+<main>
+
+
+    <div class="text-center mt-5 pt-5">
+        <h3 class="fw-bold ">Sale</h3>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row gy-2 mt-5 d-flex justify-content-center ">
+            @foreach (var a in Model)
+            {
+                decimal discountedPrice = (a.Price - 500);
+
+                string[] images = a.Images.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+                string firstImagePath = images.FirstOrDefault();
+                <div class="col-sm-2 ">
+                    <a asp-action="SpecificArticle" asp-route-id="@a.id">
+                        <div class="card border-0">
+
+                            <img src="@Url.Content(firstImagePath)" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 text-body-tertiary">The Outfit
+                                <p class="fw-bold">@a.Name</p>
+                                <span>
+                                    <del class="text-danger me-2"> Rs. @a.Price</del>
+
+                                </span>
+                                <span>
+                                    Rs. @discountedPrice
+                                </span></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            }
+
+        </div>
+
+    </div>
+
+
+</main>
+</div>

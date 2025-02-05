@@ -1,0 +1,94 @@
+﻿@model The_Outfit.Models.Article
+<title>@Model.Name</title>
+<main style="padding-top: 90px;">
+
+    <div class="card border-0 mb-3">
+        <div class="row g-0">
+            <div class="col-12 col-md-6 col-lg-5  offset-0 offset-sm-2 offset-md-0 offset-lg-1">
+                <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+                    <div style="justify-content: center;" class="carousel-inner  ms-5">
+
+                        @{
+                            string image = "";
+                        }
+                        @for (int i = 0; i < Model.Images.Split(',').Length; i++)
+                        {
+                            string imagePath = Model.Images.Split(',')[i].Trim();
+                            if (i == 0)
+                            {
+                                image = imagePath;
+                            }
+                            <div class="carousel-item @(i==0? "active":"")" data-bs-interval="2000">
+                                <img class="pics" src="@Url.Content(imagePath)" class="d-block " height="470px" alt="...">
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4  ps-5 my-2  offset-0 offset-sm-2 offset-md-0">
+                <div class="card-body">
+                    <h1 class="product_title entry-title" style="font-weight:bold; font-size: 20px">
+                        @Model.Name
+                    </h1>
+                    <p class="text-body-tertiary">@Model.colorDetails</p>
+                    <br>
+                    <span class=""> Rs.@Model.Price</span>
+                    <br>
+                    <br>
+
+
+
+                    @{
+                        var discountedPrice = Model.Price;
+                    }
+
+                    <form action="/order/addtoCart" method="post">
+                        <input type="hidden" name="id" value="@Model.id" />
+                        <input type="hidden" name="Name" value="@Model.Name" />
+                        <input type="hidden" name="Price" value="@Model.Price" />
+
+                        <input type="hidden" name="Price" value="@discountedPrice" />
+                        <input type="hidden" name="Image" value="@image" />
+                        <input type="hidden" name="Category" value="@Model.Category" />
+                        <p class="fw-bold">Quantity</p>
+                        <div class="w-100">
+                            <select style="width: 200px;" name="Quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                            </select>
+                        </div>
+
+                        <br />
+                        <br />
+                        <button style="border: 1px solid black; width:300px" type="submit" class="btn btn-outline-dark">Add to Cart</button>
+
+                    </form>
+
+
+                    <button style=" margin-top:7px;margin-bottom: 10px; width:300px" type="button" class="btn btn-dark ">Buy Now</button>
+                    <br>
+
+                    <br>
+                    <p class="text-body-tertiary">Availbility: <span class="text-black">In Stock</span></p>
+
+                </div>
+            </div>
+        </div>
+        <div class=" Features px-5 mt-5">
+            <h2><strong>COMPOSITION & CARE</strong></h2>
+            <ul>
+                @foreach (string feature in Model.Features.Split(','))
+                {
+                    <li class="text-body-tertiary">
+                        @feature
+                    </li>
+                }
+            </ul>
+        </div>
+</main>

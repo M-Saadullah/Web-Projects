@@ -1,0 +1,86 @@
+﻿@{
+    Layout = null;
+}
+@model The_Outfit.Models.Article
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Product Form</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa; /* Light gray background */
+        }
+
+        .card-container {
+            max-width: 600px;
+            margin: auto;
+            margin-top: 50px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Box shadow */
+        }
+
+        .card-title {
+            text-align: center; /* Center align the text */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="text-center my-3">
+        <img src="~/images/logo.png" alt="logo" width="80px">
+    </div>
+    <div class="card-container mt-3">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Edit Article</h2>
+                <form asp-action="EditArticle" asp-route-id ="@Model.id" method="post">
+                    <div class="form-group">
+                        <label for="articleName">Article Name</label>
+                        <input type="text" class="form-control" name="name" value="@Model.Name" id="articleName" placeholder="Enter article name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="packageDetail">Color Detail</label>
+                        <input type="text" class="form-control" name="color_details" value="@Model.colorDetails" id="packageDetail" placeholder="Enter color detail" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="price">Price</label>
+                            <input type="text" class="form-control" name="price" value="@Model.Price" id="price" placeholder="Enter price" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="quantity">Quantity</label>
+                            <div class="input-group">
+                                <input type="number" class="form-control" name="quantity" value="@Model.Quantity" id="quantity" value="1" min="1" max="100" required>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="category">Category</label>
+                            <select id="category" name="category" class="form-control" required>
+                                <option selected disabled>Choose Collection...</option>
+                                <option value="Men">Men</option>
+                                <option value="Women">Women</option>
+                                <option value="Sale">Sale</option>
+                                <!-- Add more categories as needed -->
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="features">Features</label>
+                        <textarea class="form-control" value="@Model.Features" id="features" name="features" rows="3" placeholder="Enter article features" required>@Model.Features</textarea>
+                    </div>
+                    <input type ="hidden" id="imageUpload" name="files" value="@Model.Images" multiple>
+                    <button type="submit" class="btn w-100 btn-primary">Save Products</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

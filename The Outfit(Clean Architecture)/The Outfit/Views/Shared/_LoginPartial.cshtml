@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using The_Outfit.Models
+@inject SignInManager<MyAppUser> SignInManager
+@inject UserManager<MyAppUser> UserManager
+
+<ul class="navbar-nav">
+@if (SignInManager.IsSignedIn(User))
+{
+     <li class="nav-item">
+        @* <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a> *@
+            <a style="margin-right:5px; height:2px;" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">@User.Identity?.Name.Split('@')[0]!</a>
+
+    </li> 
+ 
+        <a style="margin-left:5px; padding-top:10px" class=" text-black " asp-area="Identity" asp-page="/Account/Logout"><i class="ri-user-fill d-block " style="transform: scale(1.5);"></i></a>
+ 
+}
+else
+{
+        <a style="margin-left:5px;padding-top:10px" class=" text-black " asp-area="Identity" asp-page="/Account/Login"><i class="ri-user-fill d-block " style="transform: scale(1.5);"></i></a>
+    @* <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+    </li> *@
+}
+</ul>

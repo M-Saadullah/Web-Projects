@@ -1,0 +1,517 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\6th semester\\The Outfit(Clean Architecture)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53B4F568-D510-48F9-B46A-0600AFC087A4}|Infrastructure\\Infrastructure.csproj|d:\\6th semester\\the outfit(clean architecture)\\infrastructure\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B4F568-D510-48F9-B46A-0600AFC087A4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|d:\\6th semester\\the outfit(clean architecture)\\application\\cartservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|solutionrelative:application\\cartservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|d:\\6th semester\\the outfit(clean architecture)\\application\\orderservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|solutionrelative:application\\orderservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|d:\\6th semester\\the outfit(clean architecture)\\application\\repositoryservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|solutionrelative:application\\repositoryservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|d:\\6th semester\\the outfit(clean architecture)\\application\\articleservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|solutionrelative:application\\articleservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|d:\\6th semester\\the outfit(clean architecture)\\application\\iarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|solutionrelative:application\\iarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|d:\\6th semester\\the outfit(clean architecture)\\application\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|solutionrelative:application\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|d:\\6th semester\\the outfit(clean architecture)\\the outfit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|solutionrelative:the outfit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|d:\\6th semester\\the outfit(clean architecture)\\application\\irepositoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|solutionrelative:application\\irepositoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B4F568-D510-48F9-B46A-0600AFC087A4}|Infrastructure\\Infrastructure.csproj|d:\\6th semester\\the outfit(clean architecture)\\infrastructure\\articlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B4F568-D510-48F9-B46A-0600AFC087A4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\articlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|d:\\6th semester\\the outfit(clean architecture)\\the outfit\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|solutionrelative:the outfit\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|d:\\6th semester\\the outfit(clean architecture)\\the outfit\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|solutionrelative:the outfit\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|d:\\6th semester\\the outfit(clean architecture)\\the outfit\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|solutionrelative:the outfit\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|d:\\6th semester\\the outfit(clean architecture)\\application\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|solutionrelative:application\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|d:\\6th semester\\the outfit(clean architecture)\\application\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|solutionrelative:application\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|d:\\6th semester\\the outfit(clean architecture)\\application\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|solutionrelative:application\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|d:\\6th semester\\the outfit(clean architecture)\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B4F568-D510-48F9-B46A-0600AFC087A4}|Infrastructure\\Infrastructure.csproj|d:\\6th semester\\the outfit(clean architecture)\\infrastructure\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B4F568-D510-48F9-B46A-0600AFC087A4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|d:\\6th semester\\the outfit(clean architecture)\\the outfit\\controllers\\womencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|solutionrelative:the outfit\\controllers\\womencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|d:\\6th semester\\the outfit(clean architecture)\\the outfit\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|solutionrelative:the outfit\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|d:\\6th semester\\the outfit(clean architecture)\\the outfit\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|solutionrelative:the outfit\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|d:\\6th semester\\the outfit(clean architecture)\\the outfit\\controllers\\mencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|solutionrelative:the outfit\\controllers\\mencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|d:\\6th semester\\the outfit(clean architecture)\\the outfit\\controllers\\collectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|solutionrelative:the outfit\\controllers\\collectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|d:\\6th semester\\the outfit(clean architecture)\\the outfit\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|solutionrelative:the outfit\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|d:\\6th semester\\the outfit(clean architecture)\\the outfit\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|solutionrelative:the outfit\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|d:\\6th semester\\the outfit(clean architecture)\\the outfit\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D025B7E8-9EB8-481C-8E6D-E7EDFFD6C56A}|The Outfit\\The Outfit.csproj|solutionrelative:the outfit\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|d:\\6th semester\\the outfit(clean architecture)\\application\\iarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|solutionrelative:application\\iarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|d:\\6th semester\\the outfit(clean architecture)\\application\\icart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7811F539-7AE0-4604-9C3C-2F277FB739AE}|Application\\Application.csproj|solutionrelative:application\\icart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605A9DFE-99FC-4A26-8680-9ED639930AF0}|Core\\Core.csproj|d:\\6th semester\\the outfit(clean architecture)\\core\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605A9DFE-99FC-4A26-8680-9ED639930AF0}|Core\\Core.csproj|solutionrelative:core\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605A9DFE-99FC-4A26-8680-9ED639930AF0}|Core\\Core.csproj|d:\\6th semester\\the outfit(clean architecture)\\core\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605A9DFE-99FC-4A26-8680-9ED639930AF0}|Core\\Core.csproj|solutionrelative:core\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B4F568-D510-48F9-B46A-0600AFC087A4}|Infrastructure\\Infrastructure.csproj|d:\\6th semester\\the outfit(clean architecture)\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{53B4F568-D510-48F9-B46A-0600AFC087A4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RepositoryServiceRepository.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\RepositoryServiceRepository.cs",
+              "RelativeDocumentMoniker": "Application\\RepositoryServiceRepository.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\RepositoryServiceRepository.cs",
+              "RelativeToolTip": "Application\\RepositoryServiceRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T18:16:39.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderServiceRepository.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\OrderServiceRepository.cs",
+              "RelativeDocumentMoniker": "Application\\OrderServiceRepository.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\OrderServiceRepository.cs",
+              "RelativeToolTip": "Application\\OrderServiceRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T18:15:41.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartServiceRepository.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\CartServiceRepository.cs",
+              "RelativeDocumentMoniker": "Application\\CartServiceRepository.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\CartServiceRepository.cs",
+              "RelativeToolTip": "Application\\CartServiceRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T18:15:01.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Infrastructure\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\GenericRepository.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Infrastructure\\GenericRepository.cs",
+              "RelativeToolTip": "Infrastructure\\GenericRepository.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAA9wCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T19:59:35.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArticleServiceRepository.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\ArticleServiceRepository.cs",
+              "RelativeDocumentMoniker": "Application\\ArticleServiceRepository.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\ArticleServiceRepository.cs",
+              "RelativeToolTip": "Application\\ArticleServiceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T18:14:34.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IArticleService.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\IArticleService.cs",
+              "RelativeDocumentMoniker": "Application\\IArticleService.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\IArticleService.cs",
+              "RelativeToolTip": "Application\\IArticleService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T17:26:55.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\ICartService.cs",
+              "RelativeDocumentMoniker": "Application\\ICartService.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\ICartService.cs",
+              "RelativeToolTip": "Application\\ICartService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T17:27:29.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Program.cs",
+              "RelativeDocumentMoniker": "The Outfit\\Program.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Program.cs",
+              "RelativeToolTip": "The Outfit\\Program.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T19:31:12.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "The Outfit\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "The Outfit\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T19:20:45.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRepositoryService.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\IRepositoryService.cs",
+              "RelativeDocumentMoniker": "Application\\IRepositoryService.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\IRepositoryService.cs",
+              "RelativeToolTip": "Application\\IRepositoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T17:29:43.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "The Outfit\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "The Outfit\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T20:22:04.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\appsettings.json",
+              "RelativeDocumentMoniker": "The Outfit\\appsettings.json",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\appsettings.json",
+              "RelativeToolTip": "The Outfit\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-11T20:05:16.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ArticleRepository.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Infrastructure\\ArticleRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ArticleRepository.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Infrastructure\\ArticleRepository.cs",
+              "RelativeToolTip": "Infrastructure\\ArticleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAB8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T19:23:22.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Application\\IOrderService.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\IOrderService.cs",
+              "RelativeToolTip": "Application\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T17:29:04.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IOrder.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\IOrder.cs",
+              "RelativeDocumentMoniker": "Application\\IOrder.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\IOrder.cs",
+              "RelativeToolTip": "Application\\IOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T17:32:28.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\IRepository.cs",
+              "RelativeDocumentMoniker": "Application\\IRepository.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\IRepository.cs",
+              "RelativeToolTip": "Application\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T17:32:46.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-11T17:22:21.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SaleController.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\SaleController.cs",
+              "RelativeDocumentMoniker": "The Outfit\\Controllers\\SaleController.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\SaleController.cs",
+              "RelativeToolTip": "The Outfit\\Controllers\\SaleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T19:22:05.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Infrastructure\\CartRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\CartRepository.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Infrastructure\\CartRepository.cs",
+              "RelativeToolTip": "Infrastructure\\CartRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T17:30:39.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MenController.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\MenController.cs",
+              "RelativeDocumentMoniker": "The Outfit\\Controllers\\MenController.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\MenController.cs",
+              "RelativeToolTip": "The Outfit\\Controllers\\MenController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T19:21:09.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "The Outfit\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "The Outfit\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T19:21:28.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WomenController.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\WomenController.cs",
+              "RelativeDocumentMoniker": "The Outfit\\Controllers\\WomenController.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\WomenController.cs",
+              "RelativeToolTip": "The Outfit\\Controllers\\WomenController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwA4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T19:22:22.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CollectionController.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\CollectionController.cs",
+              "RelativeDocumentMoniker": "The Outfit\\Controllers\\CollectionController.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\CollectionController.cs",
+              "RelativeToolTip": "The Outfit\\Controllers\\CollectionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T19:20:43.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "The Outfit\\Controllers\\CheckoutController.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "The Outfit\\Controllers\\CheckoutController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T19:19:25.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ArticleController.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\ArticleController.cs",
+              "RelativeDocumentMoniker": "The Outfit\\Controllers\\ArticleController.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\ArticleController.cs",
+              "RelativeToolTip": "The Outfit\\Controllers\\ArticleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T19:18:10.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "The Outfit\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\The Outfit\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "The Outfit\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T19:18:08.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IArticle.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\IArticle.cs",
+              "RelativeDocumentMoniker": "Application\\IArticle.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\IArticle.cs",
+              "RelativeToolTip": "Application\\IArticle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T18:31:38.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ICart.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\ICart.cs",
+              "RelativeDocumentMoniker": "Application\\ICart.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Application\\ICart.cs",
+              "RelativeToolTip": "Application\\ICart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T17:28:40.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Article.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Core\\Article.cs",
+              "RelativeDocumentMoniker": "Core\\Article.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Core\\Article.cs",
+              "RelativeToolTip": "Core\\Article.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T17:30:17.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CartItems.cs",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Core\\CartItems.cs",
+              "RelativeDocumentMoniker": "Core\\CartItems.cs",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Core\\CartItems.cs",
+              "RelativeToolTip": "Core\\CartItems.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T17:30:19.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "D:\\6th semester\\The Outfit(Clean Architecture)\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "D:\\6th semester\\The Outfit(Clean Architecture)\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-11T17:23:21.528Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
