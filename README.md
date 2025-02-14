@@ -31,12 +31,11 @@ Built using Clean Architecture principles, our solution emphasizes separation of
 - **Scalable Structure**: Modular architecture for easy feature expansion  
 
 ## Technology Stack  
-- **Frontend**: HTML5, CSS3 (SASS), JavaScript (ES6+), Bootstrap 5  
-- **Backend**: ASP.NET Core 7 MVC, C# 11  
-- **Authentication**: ASP.NET Core Identity with OAuth 2.0  
-- **Database**: SQL Server 2022 with Entity Framework Core 7  
-- **Architecture**: Clean Architecture with DDD principles  
-- **Tools**: Azure DevOps CI/CD, xUnit, Moq, AutoMapper  
+- **Frontend**: HTML, CSS3, JavaScript, Bootstrap
+- **Backend**: ASP.NET Core 7 MVC, C#
+- **Authentication**: ASP.NET Core Identity
+- **Database**: SQL Server
+- **Architecture**: Clean Architecture
 
 
 Explore the future of fashion e-commerce with The Outfit - where style meets technical excellence!  
