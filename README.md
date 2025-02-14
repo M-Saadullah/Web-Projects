@@ -40,5 +40,5 @@ Built using Clean Architecture principles, our solution emphasizes separation of
 
 Explore the future of fashion e-commerce with The Outfit - where style meets technical excellence!  
 
-**Note**
+**Note: **
 "Please unzip the "bin" folder in "The Outfit(Clean Architecture)\The Outfit\bin.zip" and then use this project.
